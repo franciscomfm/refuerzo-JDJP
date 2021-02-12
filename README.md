@@ -18,3 +18,16 @@ En este apartado vamos a hacer un push a nuestro repositorio remoto, pero en pri
 Luego hacemos `get remote add origin https://github.com/juandiegojp/refuerzo-JDJP.git`, `git branch -M main` y, finalmente, hacemos el push a nuestro repositorio con `git push -u origin main`
 
 ![Comando GIT ADD](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act4-3.PNG)
+
+
+# Ejercicio 6:
+
+En este apartado hemos creado la carpeta `privada/` y el fichero `privado` como podemos ver en la siguiente imagen:
+![Comando GIT ADD](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act4-4.PNG)
+
+Seguidamente, creamos un fichero `.gitignore` y añadiremos los archivos que no queremos que pase Git.
+![Comando GIT ADD](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act4-5.PNG)
+![Comando GIT ADD](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act4-6.PNG)
+
+
+#
