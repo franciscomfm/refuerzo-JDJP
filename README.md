@@ -60,3 +60,31 @@ En este apartado en primer lugar he usado el comando `git branch` para ver las r
 Luego, para cambiar de rama, he usado el comando `git checkout v0.2` y, como se puede ver en la imagen de abajo, aparece el mensaje de que nos hemos cambiado de rama. Podemos ver comprobar nuevamente con el comando `git branch` que nos encontramos en la rama _v0.2_ ya que aparece junto con un __*__.
 
 ![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-1.PNG)
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-1B.PNG)
+
+## Actividad 5 - Ejercicio 2:
+En este apartado hemos añadido el fichero `2.txt` a la rama `v0.2`
+
+![A5-2](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-2.PNG)
+
+## Actividad 5 - Ejercicio 3:
+En esta actividad hemos creado una rama remota, dicha rama la hemos creado con el comando `get fetch origin`.
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-3.PNG)
+
+Seguidamente, usamos el comando `git push origin v0.2`:
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-3B.PNG)
+
+## Actividad 5 - Ejercicio 4:
+En primer lugar nos posicionamos en la rama mas con el comando `git checkout main`. Luego hacemos el merge con el comando `git merge origin/v0.2`
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-4.PNG)
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-4B.PNG)
+
+## Actividad 5 - Ejercicio 5:
+Añadimos al fichero `1.txt` _hola_ y hacemos commit con el comando `git commit -m "  "`.
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-5A.PNG)
+
+Pasamos ahora a la rama `v0.2` y ponemos `Adios` en el fichero `1.txt` y hacemos commit con el comando `git commit -m "  "`.
+
+Finalmente, volvemos a la rama `main` con el comando `git checkout main` y hacemos el `merge`. Como podemos ver, nos aparece el mensaje siguiente de que hay un conflicto al hacer el merge:
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-5C.PNG)
+![GIT BRANCH](https://github.com/juandiegojp/refuerzo-JDJP/blob/main/img/act5-5CC.PNG)
